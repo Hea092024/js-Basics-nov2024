@@ -20,8 +20,18 @@
 // selectedColors[2]=1;
 // console.log(selectedColors.length);
 
-function greet(name){
-    console.log("Hello " + name);
+//Performing a task
+function greet(name, lastName){
+    console.log("Hello " + name + "" +lastName);
 }
 
-greet("john");
+//Calulating a value
+function square(number){
+    return number * number;
+}
+
+let number = square(2);
+console.log(square(2));
+
+// greet("john","smith");
+// greet("Lise", "John");
